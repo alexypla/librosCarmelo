@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		333DADF32223CF6200693EAD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 333DADF22223CF6200693EAD /* AppDelegate.swift */; };
+		333DADF52223CF6200693EAD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 333DADF42223CF6200693EAD /* ViewController.swift */; };
+		333DADF82223CF6200693EAD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 333DADF62223CF6200693EAD /* Main.storyboard */; };
+		333DADFA2223CF6400693EAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 333DADF92223CF6400693EAD /* Assets.xcassets */; };
+		333DADFD2223CF6400693EAD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 333DADFB2223CF6400693EAD /* LaunchScreen.storyboard */; };
+		333DAE082223CF6400693EAD /* librosCarmeloTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 333DAE072223CF6400693EAD /* librosCarmeloTests.swift */; };
+		333DAE132223CF6400693EAD /* librosCarmeloUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 333DAE122223CF6400693EAD /* librosCarmeloUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		333DAE042223CF6400693EAD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 333DADE72223CF6200693EAD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 333DADEE2223CF6200693EAD;
+			remoteInfo = librosCarmelo;
+		};
+		333DAE0F2223CF6400693EAD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 333DADE72223CF6200693EAD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 333DADEE2223CF6200693EAD;
+			remoteInfo = librosCarmelo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		333DADEF2223CF6200693EAD /* librosCarmelo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = librosCarmelo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		333DADF22223CF6200693EAD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		333DADF42223CF6200693EAD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		333DADF72223CF6200693EAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		333DADF92223CF6400693EAD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		333DADFC2223CF6400693EAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		333DADFE2223CF6400693EAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		333DAE032223CF6400693EAD /* librosCarmeloTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = librosCarmeloTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		333DAE072223CF6400693EAD /* librosCarmeloTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = librosCarmeloTests.swift; sourceTree = "<group>"; };
+		333DAE092223CF6400693EAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		333DAE0E2223CF6400693EAD /* librosCarmeloUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = librosCarmeloUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		333DAE122223CF6400693EAD /* librosCarmeloUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = librosCarmeloUITests.swift; sourceTree = "<group>"; };
+		333DAE142223CF6400693EAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		333DADEC2223CF6200693EAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		333DAE002223CF6400693EAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		333DAE0B2223CF6400693EAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		333DADE62223CF6200693EAD = {
+			isa = PBXGroup;
+			children = (
+				333DADF12223CF6200693EAD /* librosCarmelo */,
+				333DAE062223CF6400693EAD /* librosCarmeloTests */,
+				333DAE112223CF6400693EAD /* librosCarmeloUITests */,
+				333DADF02223CF6200693EAD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		333DADF02223CF6200693EAD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				333DADEF2223CF6200693EAD /* librosCarmelo.app */,
+				333DAE032223CF6400693EAD /* librosCarmeloTests.xctest */,
+				333DAE0E2223CF6400693EAD /* librosCarmeloUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		333DADF12223CF6200693EAD /* librosCarmelo */ = {
+			isa = PBXGroup;
+			children = (
+				333DADF22223CF6200693EAD /* AppDelegate.swift */,
+				333DADF42223CF6200693EAD /* ViewController.swift */,
+				333DADF62223CF6200693EAD /* Main.storyboard */,
+				333DADF92223CF6400693EAD /* Assets.xcassets */,
+				333DADFB2223CF6400693EAD /* LaunchScreen.storyboard */,
+				333DADFE2223CF6400693EAD /* Info.plist */,
+			);
+			path = librosCarmelo;
+			sourceTree = "<group>";
+		};
+		333DAE062223CF6400693EAD /* librosCarmeloTests */ = {
+			isa = PBXGroup;
+			children = (
+				333DAE072223CF6400693EAD /* librosCarmeloTests.swift */,
+				333DAE092223CF6400693EAD /* Info.plist */,
+			);
+			path = librosCarmeloTests;
+			sourceTree = "<group>";
+		};
+		333DAE112223CF6400693EAD /* librosCarmeloUITests */ = {
+			isa = PBXGroup;
+			children = (
+				333DAE122223CF6400693EAD /* librosCarmeloUITests.swift */,
+				333DAE142223CF6400693EAD /* Info.plist */,
+			);
+			path = librosCarmeloUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		333DADEE2223CF6200693EAD /* librosCarmelo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 333DAE172223CF6400693EAD /* Build configuration list for PBXNativeTarget "librosCarmelo" */;
+			buildPhases = (
+				333DADEB2223CF6200693EAD /* Sources */,
+				333DADEC2223CF6200693EAD /* Frameworks */,
+				333DADED2223CF6200693EAD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = librosCarmelo;
+			productName = librosCarmelo;
+			productReference = 333DADEF2223CF6200693EAD /* librosCarmelo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		333DAE022223CF6400693EAD /* librosCarmeloTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 333DAE1A2223CF6400693EAD /* Build configuration list for PBXNativeTarget "librosCarmeloTests" */;
+			buildPhases = (
+				333DADFF2223CF6400693EAD /* Sources */,
+				333DAE002223CF6400693EAD /* Frameworks */,
+				333DAE012223CF6400693EAD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				333DAE052223CF6400693EAD /* PBXTargetDependency */,
+			);
+			name = librosCarmeloTests;
+			productName = librosCarmeloTests;
+			productReference = 333DAE032223CF6400693EAD /* librosCarmeloTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		333DAE0D2223CF6400693EAD /* librosCarmeloUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 333DAE1D2223CF6400693EAD /* Build configuration list for PBXNativeTarget "librosCarmeloUITests" */;
+			buildPhases = (
+				333DAE0A2223CF6400693EAD /* Sources */,
+				333DAE0B2223CF6400693EAD /* Frameworks */,
+				333DAE0C2223CF6400693EAD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				333DAE102223CF6400693EAD /* PBXTargetDependency */,
+			);
+			name = librosCarmeloUITests;
+			productName = librosCarmeloUITests;
+			productReference = 333DAE0E2223CF6400693EAD /* librosCarmeloUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		333DADE72223CF6200693EAD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = dam;
+				TargetAttributes = {
+					333DADEE2223CF6200693EAD = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					333DAE022223CF6400693EAD = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 333DADEE2223CF6200693EAD;
+					};
+					333DAE0D2223CF6400693EAD = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 333DADEE2223CF6200693EAD;
+					};
+				};
+			};
+			buildConfigurationList = 333DADEA2223CF6200693EAD /* Build configuration list for PBXProject "librosCarmelo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 333DADE62223CF6200693EAD;
+			productRefGroup = 333DADF02223CF6200693EAD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				333DADEE2223CF6200693EAD /* librosCarmelo */,
+				333DAE022223CF6400693EAD /* librosCarmeloTests */,
+				333DAE0D2223CF6400693EAD /* librosCarmeloUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		333DADED2223CF6200693EAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				333DADFD2223CF6400693EAD /* LaunchScreen.storyboard in Resources */,
+				333DADFA2223CF6400693EAD /* Assets.xcassets in Resources */,
+				333DADF82223CF6200693EAD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		333DAE012223CF6400693EAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		333DAE0C2223CF6400693EAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		333DADEB2223CF6200693EAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				333DADF52223CF6200693EAD /* ViewController.swift in Sources */,
+				333DADF32223CF6200693EAD /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		333DADFF2223CF6400693EAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				333DAE082223CF6400693EAD /* librosCarmeloTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		333DAE0A2223CF6400693EAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				333DAE132223CF6400693EAD /* librosCarmeloUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		333DAE052223CF6400693EAD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 333DADEE2223CF6200693EAD /* librosCarmelo */;
+			targetProxy = 333DAE042223CF6400693EAD /* PBXContainerItemProxy */;
+		};
+		333DAE102223CF6400693EAD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 333DADEE2223CF6200693EAD /* librosCarmelo */;
+			targetProxy = 333DAE0F2223CF6400693EAD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		333DADF62223CF6200693EAD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				333DADF72223CF6200693EAD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		333DADFB2223CF6400693EAD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				333DADFC2223CF6400693EAD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		333DAE152223CF6400693EAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		333DAE162223CF6400693EAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		333DAE182223CF6400693EAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = librosCarmelo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = example.librosCarmelo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		333DAE192223CF6400693EAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = librosCarmelo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = example.librosCarmelo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		333DAE1B2223CF6400693EAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = librosCarmeloTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = example.librosCarmeloTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/librosCarmelo.app/librosCarmelo";
+			};
+			name = Debug;
+		};
+		333DAE1C2223CF6400693EAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = librosCarmeloTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = example.librosCarmeloTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/librosCarmelo.app/librosCarmelo";
+			};
+			name = Release;
+		};
+		333DAE1E2223CF6400693EAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = librosCarmeloUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = example.librosCarmeloUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = librosCarmelo;
+			};
+			name = Debug;
+		};
+		333DAE1F2223CF6400693EAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = librosCarmeloUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = example.librosCarmeloUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = librosCarmelo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		333DADEA2223CF6200693EAD /* Build configuration list for PBXProject "librosCarmelo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				333DAE152223CF6400693EAD /* Debug */,
+				333DAE162223CF6400693EAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		333DAE172223CF6400693EAD /* Build configuration list for PBXNativeTarget "librosCarmelo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				333DAE182223CF6400693EAD /* Debug */,
+				333DAE192223CF6400693EAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		333DAE1A2223CF6400693EAD /* Build configuration list for PBXNativeTarget "librosCarmeloTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				333DAE1B2223CF6400693EAD /* Debug */,
+				333DAE1C2223CF6400693EAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		333DAE1D2223CF6400693EAD /* Build configuration list for PBXNativeTarget "librosCarmeloUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				333DAE1E2223CF6400693EAD /* Debug */,
+				333DAE1F2223CF6400693EAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 333DADE72223CF6200693EAD /* Project object */;
+}
