@@ -7,13 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		33130F41222E63350003FE53 /* LibroEdit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33130F40222E63350003FE53 /* LibroEdit.swift */; };
 		333DADF32223CF6200693EAD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 333DADF22223CF6200693EAD /* AppDelegate.swift */; };
-		333DADF52223CF6200693EAD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 333DADF42223CF6200693EAD /* ViewController.swift */; };
 		333DADF82223CF6200693EAD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 333DADF62223CF6200693EAD /* Main.storyboard */; };
 		333DADFA2223CF6400693EAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 333DADF92223CF6400693EAD /* Assets.xcassets */; };
 		333DADFD2223CF6400693EAD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 333DADFB2223CF6400693EAD /* LaunchScreen.storyboard */; };
 		333DAE082223CF6400693EAD /* librosCarmeloTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 333DAE072223CF6400693EAD /* librosCarmeloTests.swift */; };
 		333DAE132223CF6400693EAD /* librosCarmeloUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 333DAE122223CF6400693EAD /* librosCarmeloUITests.swift */; };
+		333DAE212223DAF500693EAD /* ApiRest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 333DAE202223DAF500693EAD /* ApiRest.swift */; };
+		333DAE232223E26300693EAD /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 333DAE222223E26300693EAD /* TableViewCell.swift */; };
+		335978D9222D50C900B1811F /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 335978D8222D50C900B1811F /* Utils.swift */; };
+		33CC7808222E5F8C00AF4A17 /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33CC7807222E5F8C00AF4A17 /* Book.swift */; };
+		33CC780A222E5FF700AF4A17 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33CC7809222E5FF700AF4A17 /* API.swift */; };
+		33CC780C222E605C00AF4A17 /* ApiListaController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33CC780B222E605C00AF4A17 /* ApiListaController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +40,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		33130F40222E63350003FE53 /* LibroEdit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibroEdit.swift; sourceTree = "<group>"; };
 		333DADEF2223CF6200693EAD /* librosCarmelo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = librosCarmelo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		333DADF22223CF6200693EAD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		333DADF42223CF6200693EAD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		333DADF72223CF6200693EAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		333DADF92223CF6400693EAD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		333DADFC2223CF6400693EAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +53,12 @@
 		333DAE0E2223CF6400693EAD /* librosCarmeloUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = librosCarmeloUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		333DAE122223CF6400693EAD /* librosCarmeloUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = librosCarmeloUITests.swift; sourceTree = "<group>"; };
 		333DAE142223CF6400693EAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		333DAE202223DAF500693EAD /* ApiRest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiRest.swift; sourceTree = "<group>"; };
+		333DAE222223E26300693EAD /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		335978D8222D50C900B1811F /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		33CC7807222E5F8C00AF4A17 /* Book.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
+		33CC7809222E5FF700AF4A17 /* API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		33CC780B222E605C00AF4A17 /* ApiListaController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiListaController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,11 +110,17 @@
 			isa = PBXGroup;
 			children = (
 				333DADF22223CF6200693EAD /* AppDelegate.swift */,
-				333DADF42223CF6200693EAD /* ViewController.swift */,
 				333DADF62223CF6200693EAD /* Main.storyboard */,
 				333DADF92223CF6400693EAD /* Assets.xcassets */,
 				333DADFB2223CF6400693EAD /* LaunchScreen.storyboard */,
 				333DADFE2223CF6400693EAD /* Info.plist */,
+				333DAE202223DAF500693EAD /* ApiRest.swift */,
+				33CC7809222E5FF700AF4A17 /* API.swift */,
+				333DAE222223E26300693EAD /* TableViewCell.swift */,
+				33CC780B222E605C00AF4A17 /* ApiListaController.swift */,
+				33CC7807222E5F8C00AF4A17 /* Book.swift */,
+				335978D8222D50C900B1811F /* Utils.swift */,
+				33130F40222E63350003FE53 /* LibroEdit.swift */,
 			);
 			path = librosCarmelo;
 			sourceTree = "<group>";
@@ -256,8 +274,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				333DADF52223CF6200693EAD /* ViewController.swift in Sources */,
+				33130F41222E63350003FE53 /* LibroEdit.swift in Sources */,
+				335978D9222D50C900B1811F /* Utils.swift in Sources */,
+				33CC7808222E5F8C00AF4A17 /* Book.swift in Sources */,
+				333DAE232223E26300693EAD /* TableViewCell.swift in Sources */,
+				333DAE212223DAF500693EAD /* ApiRest.swift in Sources */,
 				333DADF32223CF6200693EAD /* AppDelegate.swift in Sources */,
+				33CC780C222E605C00AF4A17 /* ApiListaController.swift in Sources */,
+				33CC780A222E5FF700AF4A17 /* API.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
